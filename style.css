@@ -1,0 +1,48 @@
+body {
+  background-color: #243665;
+  color: #8bd8bd;
+}
+
+.navbar {
+  background-color: #bdcde0;
+}
+
+.navbar-brand {
+  color: #243665;
+}
+.section-image {
+  width: 100%;
+}
+
+.copy {
+  width: 75%;
+}
+
+.card {
+  flex-basis: auto;
+  background-color: #bdcde0;
+  color: #243665;
+  box-shadow: 4px 4px 6px rgba(17, 27, 48, 0.5);
+  border-radius: 10px;
+}
+
+#contact {
+  height: 100vh;
+  background-image: url("Assets/AdobeStock_277626546_Preview_Contact.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#contact-card {
+  margin-top: 200px;
+  margin-left: 1050px;
+  width: 600px;
+  height: 800px;
+}
+
+.comms {
+    
+  height: 175px;
+}
