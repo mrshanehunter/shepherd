@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
@@ -12,24 +12,24 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
-    />
+    /> -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css" />
-    <title>Shepherd Advisory Services</title>
-  </head>
-  <body>
-    <header>
-      <!-- Image and text -->
-      <nav class="navbar navbar-expand-lg">
+<title>Shepherd Advisory Services</title>
+	
+</head>
+<body>
+
+<header>
+<nav class="navbar navbar-expand-sm navbar-dark">
         <a class="navbar-brand" href="#">
           <img
             src="Assets/Shepherd Navbar Logo-04.png"
-            width="333"
-            height="80"
             class="d-inline-block align-center"
             alt="Shepherd Advisory Services Logo"
             loading="lazy"
@@ -42,73 +42,73 @@
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
+          aria-expanded="true"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
+          <div class="navbar-nav">
             <a class="nav-item nav-link" href="#about">About</a>
             <a class="nav-item nav-link" href="#services">Services</a>
             <a class="nav-item nav-link" href="#contact">Contact</a>
           </div>
         </div>
       </nav>
-    </header>
-
-    <section id="about">
-      <container class="d-flex justify-content-center">
-        <img
-          class="section-image"
-          src="Assets/AdobeStock_83775773_Preview_Home_Page copy.jpg"
-          alt="Two business men each holding a piece of jigsaw puzzle - disconnected"
-        />
-      </container>
-      <container class="d-inline-flex m-3">
-        <div class="copy m-3">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quam
+</header>
+	
+	
+<section id="about">
+<container class="about-sect">
+<container class="about-header">
+	<img class="about-image"  src="Assets/AdobeStock_83775773_Preview_Home_Page copy.jpg" style="max-width:100%; height:auto;" alt="Two business men each holding a piece of jigsaw puzzle - disconnected" />
+	</container>	
+<container class="about-copy">
+	<container class="copy-left">
+	<div class="copy">
+		 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quam
             maxime soluta est ullam eum hic sapiente, beatae corrupti earum
             modi! Accusantium cupiditate cumque dicta quidem ea omnis adipisci
             commodi.
           </p>
-          <p>
+        </div>
+		<div class="copy">  
+		<p>		  
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
             dolorem nihil fugit deserunt ipsa earum nam nobis in distinctio ea
             corrupti reiciendis, commodi non facere. Autem eos ullam aspernatur
             doloribus? Amet consectetur adipisicing elit. Esse dolorem nihil
             fugit deserunt ipsa.
           </p>
-        </div>
-        <div class="copy m-3">
-          <p>
-            Amet consectetur adipisicing elit. Esse dolorem nihil fugit deserunt
+	  </div>
+	</container>
+	<container class="copy-right">
+		<div class="copy">
+	<p>Amet consectetur adipisicing elit. Esse dolorem nihil fugit deserunt
             ipsa. Autem eos ullam aspernatur doloribus? Amet consectetur
-            adipisicing elit. Esse dolorem nihil fugit deserunt ipsa.
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            adipisicing elit. Esse dolorem nihil fugit deserunt ipsa.			
+			</p>
+	</div>
+	<div class="copy">
+		<p>	  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
             quia minus dolore impedit, laudantium similique numquam minima autem
             neque rerum explicabo? Eveniet esse deserunt sapiente, consequuntur
             inventore et odio beatae.
-          </p>
-        </div>
-      </container>
-    </section>
-
-    <section id="services">
-      <container class="d-flex justify-content-center">
-        <img
-          class="section-image"
-          src="Assets/AdobeStock_90919250_Preview_Services copy.jpg"
-          alt="Two business men each holding a piece of jigsaw puzzle - connected"
-        />
-      </container>
-      <container>
-        <div class="row" id="card-row">
+		</p>
+	</div>
+	</container>	
+	</container>	
+	</container>	
+	</section>	
+	
+	<section id="services">
+	<container id="services-sect">
+	<container class="services-header">
+		<img class="services-image" src="Assets/AdobeStock_90919250_Preview_Services copy.jpg" style="max-width:100%; height:auto;" alt="Two business men each holding a piece of jigsaw puzzle - connected" />
+	</container>	
+	<container id="service-cards">
+	<div class="row" id="card-row">
           <div class="col-sm-4">
             <div class="card m-3">
               <div class="card-body">
@@ -149,33 +149,33 @@
             </div>
           </div>
         </div>
-      </container>
-    </section>
-
-    <section id="contact">
-      <container class="d-flex">
-        <div class="card" id="contact-card">
+	</container>	
+	</container>	
+	</section>
+	
+	<section id="contact">
+	<container id="contact-sect-details">
+		<div class="card" id="contact-card">
           <div class="card-body">
-            <div class="detail m-3">
+            <div class="detail">
               <h5>Email:</h5>
               <p>
                 matt@shepherdadvisoryservices.com.au
               </p>
-              <br />
               <h5>Phone:</h5>
               <p>+61 (0)404 036 418</p>
-              <br />
+             
               <h5>Postal:</h5>
               <p>
                 PO Box 1234
-                <br />
+             <br>
                 ScruffTown VIC 1234
               </p>
-              <br />
+              
               <p>or click on a link below ...</p>
             </div>
 
-            <div class="d-flex justify-content-center">
+            <div class="comms-links">
               <a href="mailto:matt@shepherdadvisoryservices.com.au">
                 <img
                   class="comms"
@@ -185,7 +185,7 @@
               </a>
               <a
                 href="http://www.linkedin.com/in/matt-shepherd-ca-8935742b/"
-                target="-blank"
+                target="_blank"
               >
                 <img
                   class="comms"
@@ -203,44 +203,47 @@
             </div>
           </div>
         </div>
-      </container>
-    </section>
-
-    <footer id="footer">
-      <div id="copyright" class="d-inline-block footer-text align-items-start">
-        <h6 class="text-center">
-          &#169;2020. Shepherd Advisory Services Pty. Ltd. All Rights Reserved.
-        </h6>
-      </div>
-      <div id="acn" class="d-inline-block footer-text align-items-center">
-        <h6 class="text-center">
-          ACN: 166 190 861
-        </h6>
-      </div>
-      <div id="webbuild" class="d-inline-block footer-text mr-auto">
-        <h6 class="text-center">
-          Website design & build by:
-          <a href="https://www.thatguyfrommarketing.com" target="_blank"
-            >That Guy From Marketing&reg;</a
-          >
-        </h6>
-      </div>
-    </footer>
-
-    <script
+		</container>
+	</section>
+	
+<footer id="footer">
+	<div id="copyright">
+	
+	<h6>&#169;2020. Shepherd Advisory Services Pty. Ltd. All Rights Reserved. ACN: 166 190 861</h6>
+	</div>
+	<div id="webbuild">
+		<h6>Website design/build by <a href="https://www.thatguyfrommarketing.com" target="_blank">That Guy From Marketing&reg;</a></h6>
+	</div>
+	
+</footer>	
+	
+	
+	
+	
+	
+	
+	
+<!-- <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
-    ></script>
-    <script
+    ></script> -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
       crossorigin="anonymous"
     ></script>
-    <script
+<!-- <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
-    ></script>
-  </body>
+    ></script> -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+	 
+
+
+
 </html>
