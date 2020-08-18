@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
@@ -16,18 +24,37 @@
   <body>
     <header>
       <!-- Image and text -->
-      <nav class="navbar">
+      <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">
           <img
-            src="Assets/Shepherd Logo Mark-04.png"
-            width="50"
-            height="50"
+            src="Assets/Shepherd Navbar Logo-04.png"
+            width="240"
+            height="80"
             class="d-inline-block align-center"
             alt="Shepherd Advisory Services Logo"
             loading="lazy"
           />
-          Shepherd Advisory Services
         </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#services">Services</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -80,79 +107,101 @@
           alt="Two business men each holding a piece of jigsaw puzzle - connected"
         />
       </container>
-      <container class="d-inline-flex m-3">
-        <div class="card m-5">
-          <div class="card-body">
-          <h5 class="card-title">Service A</h5>      
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quam
-            maxime soluta est ullam eum hic sapiente, beatae corrupti earum
-            modi! Accusantium cupiditate cumque dicta quidem ea omnis adipisci
-            commodi.
-          </p>
-         </div>
-        </div>
-        <div class="card m-5">
-        <div class="card-body">
-            <h5 class="card-title">Service B</h5>    
-          <p>
-            Amet consectetur adipisicing elit. Esse dolorem nihil fugit deserunt
-            ipsa. Autem eos ullam aspernatur doloribus? Amet consectetur
-            adipisicing elit. Esse dolorem nihil fugit deserunt ipsa.
-          </p>
-        </div>
-    </div>
-
-        <div>
-            <div class="card m-5">
-            <div class="card-body">    
-            <h5 class="card-title">Service C</h5>    
+      <container>
+        <div class="row" id="card-row">
+          <div class="col-sm-4">
+            <div class="card m-3">
+              <div class="card-body">
+                <h5 class="card-title">Service A</h5>
                 <p>
-                Amet consectetur adipisicing elit. Esse dolorem nihil fugit deserunt
-                ipsa. Autem eos ullam aspernatur doloribus? Amet consectetur
-                adipisicing elit. Esse dolorem nihil fugit deserunt ipsa.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  quam maxime soluta est ullam eum hic sapiente, beatae corrupti
+                  earum modi! Accusantium cupiditate cumque dicta quidem ea
+                  omnis adipisci commodi.
                 </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card m-3">
+              <div class="card-body">
+                <h5 class="card-title">Service B</h5>
+                <p>
+                  Amet consectetur adipisicing elit. Esse dolorem nihil fugit
+                  deserunt ipsa. Autem eos ullam aspernatur doloribus? Amet
+                  consectetur adipisicing elit. Esse dolorem nihil fugit
+                  deserunt ipsa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card m-3">
+              <div class="card-body">
+                <h5 class="card-title">Service C</h5>
+                <p>
+                  Amet consectetur adipisicing elit. Esse dolorem nihil fugit
+                  deserunt ipsa. Autem eos ullam aspernatur doloribus? Amet
+                  consectetur adipisicing elit. Esse dolorem nihil fugit
+                  deserunt ipsa.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>  
-      
       </container>
     </section>
 
     <section id="contact">
       <container class="d-flex">
         <div class="card" id="contact-card">
-        <div class="card-body">
+          <div class="card-body">
             <div class="detail m-3">
-                <h5>Email:</h5>
-                <p>
-                    matt@shepherdadvisoryservices.com.au
-                </p>
-                <br>
-                <h5>Phone:</h5>
-                <p>+61 (0)404 036 418</p>
-                <br>
-                <h5>Postal:</h5>
-                <p>
-                    PO Box 1234
-               <br>
-                    ScruffTown VIC  1234
-                </p>
-                <br>
-                <p> or click on a link below ...</p>
+              <h5>Email:</h5>
+              <p>
+                matt@shepherdadvisoryservices.com.au
+              </p>
+              <br />
+              <h5>Phone:</h5>
+              <p>+61 (0)404 036 418</p>
+              <br />
+              <h5>Postal:</h5>
+              <p>
+                PO Box 1234
+                <br />
+                ScruffTown VIC 1234
+              </p>
+              <br />
+              <p>or click on a link below ...</p>
             </div>
 
             <div class="d-flex justify-content-center">
-        <a href="mailto:matt@shepherdadvisoryservices.com.au">
-            <img class="comms" src="Assets/Contact_Email-01.png" alt="email link">
-        </a>
-        <a href="http://www.linkedin.com/in/matt-shepherd-ca-8935742b/" target="-blank">
-        <img class="comms" src="Assets/Contact_LinkedIn-01.png" alt="linkedin profile">
-        </a>
-        <a href="tel:+61-404-036-418">
-            <img class="comms" src="Assets/Contact_Phone-01.png" alt="phone number">
-        </a>    
-        </div>
-        </div>
+              <a href="mailto:matt@shepherdadvisoryservices.com.au">
+                <img
+                  class="comms"
+                  src="Assets/Shepherd_Contact_Icon_Email-01.png"
+                  alt="email link"
+                />
+              </a>
+              <a
+                href="http://www.linkedin.com/in/matt-shepherd-ca-8935742b/"
+                target="-blank"
+              >
+                <img
+                  class="comms"
+                  src="Assets/Shepherd_Contact_Icon_LinkedIn-01.png"
+                  alt="linkedin profile"
+                />
+              </a>
+              <a href="tel:+61-404-036-418">
+                <img
+                  class="comms"
+                  src="Assets/Shepherd_Contact_Icon_Phone-01.png"
+                  alt="phone number"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </container>
     </section>

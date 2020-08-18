@@ -1,6 +1,10 @@
 body {
   background-color: #243665;
   color: #8bd8bd;
+  font-family: "Libre Baskerville", serif;
+}
+p {
+  text-align: justify;
 }
 
 section {
@@ -8,7 +12,7 @@ section {
 }
 
 .navbar {
-  background-color: #bdcde0;
+  background-color: #1978a5;
   position: fixed;
   width: 100%;
   box-shadow: 4px 4px 6px rgba(17, 27, 48, 0.5);
@@ -17,6 +21,14 @@ section {
 .navbar-brand {
   color: #243665;
 }
+
+.nav-item {
+  color: #243665;
+  font-family: "ubuntu", serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
 .section-image {
   width: 100%;
   margin-top: 100px;
@@ -32,6 +44,10 @@ section {
   color: #243665;
   box-shadow: 4px 4px 6px rgba(17, 27, 48, 0.5);
   border-radius: 10px;
+}
+
+#card-row {
+  margin-top: 15px;
 }
 
 #contact {
@@ -52,7 +68,7 @@ section {
 }
 
 .comms {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   height: 100px;
 }
