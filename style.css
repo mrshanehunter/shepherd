@@ -1,37 +1,36 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background-color: #111b30;
-	height: 100%;
+  background-color: #111b30;
+  height: 100%;
 }
-
 
 /*Small Phones - designed at 360 x 640 */
 /*Navigation Styling*/
 .navbar {
-	background-color: #1978a5;
-	position: fixed;
-	width: 100%;
-	box-shadow: 4px 4px 6px rgba(17,27,48,0.5);
+  background-color: #1978a5;
+  position: fixed;
+  width: 100%;
+  box-shadow: 4px 4px 6px rgba(17, 27, 48, 0.5);
 }
 
 .navbar-brand {
-	color: #243665;
+  color: #243665;
 }
 
 .nav-item {
-	color: #243665;
-	font-family: 'ubuntu', sans-serif;
-	weight: 700;
-	font-size: 12px;
+  color: #243665;
+  font-family: "ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
 }
 
 .navbar-brand img {
-	width: 187px;
-	height: 50px;
+  width: 187px;
+  height: 50px;
 }
 /*
 .navbar-toggler {
@@ -39,65 +38,60 @@ body {
 	border: thin solid #111b30;
 }*/
 
-
-
-
 /*About Section - Image & Copy Styling*/
 
 #about {
-	min-height: 100vh;
+  min-height: 100vh;
 }
 
 .about-image {
-	margin-top: 5px;
-	padding-top: 75px;
-	
+  margin-top: 5px;
+  padding-top: 75px;
 }
 
 .copy p {
-	color: #8bd8bd;
-	font-family: 'libre baskerville', serif;
-	font-size: 12px;
-	font-weight: 400;
-	text-align: justify;
-	margin: 20px;
+  color: #8bd8bd;
+  font-family: "libre baskerville", serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: justify;
+  margin: 20px;
 }
-	
+
 /* Services Section - Image & Copy Styling */
 
 #services {
-	min-height: 100vh;
+  min-height: 100vh;
 }
 
 .services-image {
-	margin-top: 5px;
-	padding-top: 75px;
+  margin-top: 5px;
+  padding-top: 75px;
 }
 
 .card {
-	background-color: #bdcde0;
-	color: #243665;
-	border-radius: 20px;
-	box-shadow: 4px 4px 6px 4px rgba(25,120,165,0.5);
+  background-color: #bdcde0;
+  color: #243665;
+  border-radius: 20px;
+  box-shadow: 4px 4px 6px 4px rgba(25, 120, 165, 0.5);
 }
 
 .card-title {
-	font-family: 'ubuntu', sans-serif;
-	font-weight: 700;
-	font-size: 12px;
+  font-family: "ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
 }
 
 .card-body {
-	font-family: 'libre baskerville', serif;
-	font-weight: 40;
-	font-size: 10px;
+  font-family: "libre baskerville", serif;
+  font-weight: 40;
+  font-size: 10px;
 }
-
 
 /* Contact Section - Image & Copy Styling */
 
 #contact {
-	min-height: 100vh; /*
+  min-height: 100vh; /*
 	background-image: url("Assets/AdobeStock_277626546_Preview_Contact.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -106,200 +100,197 @@ body {
 }
 
 #contact-sect-details {
-	display: flex;
-	min-height: 95%;
+  display: flex;
+  min-height: 95%;
 }
 
 .card {
-	align-content: center;
-	allgin-items: center;
+  align-content: center;
+  align-items: center;
 }
 
 #contact-card {
-	width: 300px;
-	box-shadow: 4px 4px 6px 4px rgba(17,27,48,0.5);
-	padding: 0px;
-	margin-top: 150px;
-	margin-left: 35px;
+  width: 300px;
+  box-shadow: 4px 4px 6px 4px rgba(17, 27, 48, 0.5);
+  padding: 0px;
+  margin-top: 150px;
+  margin-left: 35px;
 }
 
-
-
 .detail {
-	margin: 0px;
-	padding: 0px;
-	line-height: 14px;
-
+  margin: 0px;
+  padding: 0px;
+  line-height: 14px;
 }
 
 .detail h5 {
-	
-	font-family: 'ubuntu', sans-serif;
-	font-weight: 700;
-	font-size: 14px;
+  font-family: "ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .detail p {
-	font-family: 'libre baskerville', serif;
-	font-weight: 400;
-	font-size: 12px;
-	padding: 0px;
+  font-family: "libre baskerville", serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0px;
 }
 
 .comms-links {
-	display: flex;
-	justify-content: space-around;
-	margin: 0px;
-	padding: 0px;
-	
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
 }
 .comms {
-	height: 75px;
-	margin-bottom: 5px;
+  height: 75px;
+  margin-bottom: 5px;
 }
-	
+
 /*Footer Styling */
 
 footer {
-	width: 100%;
-	background-color: #1978a5;
-	position: static;
-	height: auto;
-	margin-top: -10px;
-	clear: both;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-top: -10px;
+  background-color: #1978a5;
+  text-align: center;
 }
 
 footer h6 {
-	font-family: 'ubuntu', sans-serif;
-	color: #243665;
-	font-size: 8px;
-	font-weight: 500;
-	padding: 3px;
-	margin: 0px;
+  font-family: "ubuntu", sans-serif;
+  color: #243665;
+  font-size: 8px;
+  font-weight: 500;
 }
 
-#webbuild a {
-	color: #111b30;
+#copyright h6 {
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
-	
+
+#webbuild h6 {
+  padding-top: 0px;
+}
+#webbuild a {
+  color: #8bd8bd;
+}
 
 /* Adjustment for iPhone X */
 
-@media only screen and (min-width: 375px)
-{
-	#contact-card {
-		margin-top: 170px;
-	}
+@media only screen and (min-width: 375px) {
+  #contact-card {
+    margin-top: 170px;
+  }
 }
 
-@media only screen and (min-width: 576px)
-{
+@media only screen and (min-width: 576px) {
+  .collapse {
+    display: flex;
+    justify-content: flex-end;
+  }
 
-		
-	
-.navbar-nav {
-	padding: 1px;
-	}
-	
-	.navbar-nav a {
-		font-size: 18px;
-	}
+  .navbar-nav a {
+    font-size: 18px;
+  }
 
-	/* About Section */
-	
-	.copy p {
-		font-size: 12px;
-	}
-	.about-header {
-		display: flex;
-		justify-content: center;
-	}
-	
-	.about-copy {
-		display: flex;
-	}
-	
-	.copy-right {
-		
-		margin-left: 0px;
-		padding-left: 0px;
-	}
-	
-	.copy-right .copy p {
-		margin-left: 0px;
-		padding-left: 0px;
-	}
-	
-	.copy-left {
-		margin-right: 0px;
-		padding-right: 0px;
-	}
-	
-	.services-header {
-		display: flex;
-		justify-content: center;
-	}
-	
-	#contact {
-	min-height: 100vh; 
-	background-image: url("Assets/AdobeStock_277626546_Preview_Contact.jpeg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed; 
+  /* About Section */
+
+  .copy p {
+    font-size: 12px;
+  }
+  .about-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-copy {
+    display: flex;
+  }
+
+  .copy-right {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .copy-right .copy p {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .copy-left {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .services-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  #contact {
+    min-height: 100vh;
+    background-image: url("Assets/AdobeStock_277626546_Preview_Contact.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .comms-links {
+    align-content: space-between;
+  }
+  #contact-card {
+    margin-left: 235px;
+    margin-bottom: 50px;
+  }
+
+  footer h6 {
+    font-size: 11px;
+  }
 }
-	
-	.comms-links {
-		align-content: space-between;
-	}
-	#contact-card {
-		margin-left: 235px;
-		margin-bottom: 50px;
-	}
-	
-	.footer h6 {
-		font-size: 11px;
-	}
-}
-	
 
 @media only screen and (min-width: 768px) {
-	
-	.about-copy {
-		margin-top: 15px;
-	}	
-	
-	#card-row {
-		margin-top: 25px;
-	}
-	
-	#contact-card {
-		margin-left: 50%;
-		margin-bottom: 20%;
-		min-width: 35%;
-	}
-	
-	.detail {
-		line-height: normal;
-	}
-	
-	.detail h5 {
-		font-size: 18px;
-	}
-	
-	.detail p {
-		font-size: 16px;
-	}
-	
-	.comms {
-		height: 80px;
-	}
-	
-	.footer h6 {
-		font-size: 12px;
-	}
-	
+  .about-copy {
+    margin-top: 15px;
+  }
+
+  #card-row {
+    margin-top: 25px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-body {
+    font-size: 14px;
+  }
+
+  #contact-card {
+    margin-left: 50%;
+    margin-bottom: 10%;
+    min-width: 40%;
+  }
+
+  .detail {
+    line-height: normal;
+  }
+
+  .detail h5 {
+    font-size: 16px;
+  }
+
+  .detail p {
+    font-size: 14px;
+  }
+
+  .comms {
+    height: 80px;
+  }
+
+  footer h6 {
+    font-size: 12px;
+  }
 }
